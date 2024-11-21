@@ -1,0 +1,14 @@
+# Path to train and validation datasets
+train: /dtu/blackhole/09/203497/Perception/final_project/splits/images/train
+val: /dtu/blackhole/09/203497/Perception/final_project/splits/images/val
+
+# Number of classes
+nc: 3
+
+# Class names
+names:
+  - Car
+  - Cyclist
+  - Pedestrian
+
+# I think i made a mistake, it should have been in the oder cyclist, pedestrian, car
